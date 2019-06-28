@@ -15,6 +15,7 @@
 		1087635022C5A5D300486023 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1087634F22C5A5D300486023 /* main.m */; };
 		1087635A22C5A5D300486023 /* SystemPermissionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1087635922C5A5D300486023 /* SystemPermissionTests.m */; };
 		1087636522C5A5D300486023 /* SystemPermissionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1087636422C5A5D300486023 /* SystemPermissionUITests.m */; };
+		1087637522C5A60700486023 /* SystemPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 1087637422C5A60700486023 /* SystemPermission.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1087636022C5A5D300486023 /* SystemPermissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemPermissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1087636422C5A5D300486023 /* SystemPermissionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemPermissionUITests.m; sourceTree = "<group>"; };
 		1087636622C5A5D300486023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1087637322C5A60700486023 /* SystemPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemPermission.h; sourceTree = "<group>"; };
+		1087637422C5A60700486023 /* SystemPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemPermission.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		1087633F22C5A5D200486023 /* SystemPermission */ = {
 			isa = PBXGroup;
 			children = (
+				1087637222C5A5E500486023 /* SystemPermission */,
 				1087634022C5A5D200486023 /* AppDelegate.h */,
 				1087634122C5A5D200486023 /* AppDelegate.m */,
 				1087634322C5A5D200486023 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				1087636622C5A5D300486023 /* Info.plist */,
 			);
 			path = SystemPermissionUITests;
+			sourceTree = "<group>";
+		};
+		1087637222C5A5E500486023 /* SystemPermission */ = {
+			isa = PBXGroup;
+			children = (
+				1087637322C5A60700486023 /* SystemPermission.h */,
+				1087637422C5A60700486023 /* SystemPermission.m */,
+			);
+			path = SystemPermission;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				1087634522C5A5D200486023 /* ViewController.m in Sources */,
 				1087635022C5A5D300486023 /* main.m in Sources */,
 				1087634222C5A5D200486023 /* AppDelegate.m in Sources */,
+				1087637522C5A60700486023 /* SystemPermission.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
